@@ -1,0 +1,119 @@
+* {
+    margin : 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.header{
+    padding : 10px; 
+    max-width: 100%;
+    font-family: Impact, Charcoal, sans-serif;
+}
+.brand-name{
+    font-size: 1.5em;
+}
+.brand-name:hover{
+    color: #17b978;
+    transition-duration: 0.35s;
+}
+.dot{
+    color: #17b978;
+    font-size: 1.8em;
+}
+.navbar-nav li{
+    padding: 10px;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.navbar-nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: #263b5e !important;
+}
+.navbar-nav a:hover{
+    color: #17b978 !important;
+    transition-duration: 0.35s;
+}
+.nav-item .active{
+    color: #17b978 !important;
+}
+.main{
+    padding-left: 30px; 
+}
+.designation{
+    text-transform: uppercase;
+    color: #6159e6;
+    font-size: 1.2em;
+    font-weight: 800;
+    letter-spacing: 0.25em;;
+    padding-top: 30px;
+}
+.name{
+    font-family: Impact, Charcoal, sans-serif;
+    text-transform: uppercase;
+    color: #263b5e;
+    font-size: 2.6em;
+    letter-spacing: 0.05em;
+}
+.about{
+    display: flex;
+    color: rgb(114, 114, 114);
+    padding-bottom: 20px;
+}
+.contact-btn{
+    display: inline-block;
+    background: #17b978;
+    padding: 15px;
+    border: 2px solid #17b978;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.contact-btn:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.photo-home img{
+    max-width: 100%;
+}
+.designation-about{
+    margin: 0;
+    position: relative;  
+    color: #17b978;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.5em;
+}
+.aboutme{
+    padding: 40px 0;
+}
+.social-icons{
+    font-size: 30px;
+}
+.social-icons .fa{
+    padding: 10px;
+    color: #000;
+}
+.fa-facebook:hover{
+    color: #3a5998 ;
+    transition-duration: 0.3s;
+}
+.fa-twitter:hover{
+    color: #55acee;
+    transition-duration: 0.3s;
+}
+.fa-github:hover{
+    color: #ff4500;
+    transition-duration: 0.3s;
+}
+.my-photo img{
+    padding-top: 40px;
+    border-radius: 100%;
+}
+.my-photo img:hover{
+    border-radius: 0%;
+    transition-duration: 1.5s;
+}
