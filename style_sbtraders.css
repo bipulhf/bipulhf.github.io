@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/*header*/
+.header{
+    max-width: 100%;
+    background-color: #5cdb95;
+    padding: 0;
+}
+/*Logo*/
+nav .navbar-brand{
+    font-size: 2em;
+    color: #05396b !important;
+}
+.logo a{
+    font-weight: 100;
+    font-family: 'Impact', sans-serif;
+}
+/*navbar*/
+.navbar-nav li{
+    text-decoration: none;
+    font-size: 0.9em;
+    margin: 0 10px;
+    padding: 5px 5px;
+    border: 2px solid #05396b ;
+    border-radius: 15px 60px;
+    text-transform: uppercase;
+}
+.navbar-nav a{
+    font-weight: 800;
+    color: #05396b  !important;
+}
+.navbar-nav li:hover{
+    background: #05396b ;
+    transition-duration: 0.4s;
+}
+.nav-item a:hover{
+    color: #fff !important;
+    transition-duration: 0.25s;
+}
+.dropdown-menu{
+    background: #5cdb95 !important;
+}
+.dropdown-menu a:hover{
+    background: #05396b ;
+    color: #fff;
+}
+/*main*/
+.first{
+    left: 0;
+    width: 100%;
+    background-color: #5cdb95 !important;
+}
+.tagline{
+    font-size: 4em;
+    font-weight: bolder;
+    color: #fff;
+    padding: 65px 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Impact', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+}
+.email-btn{
+    
+    border: 2px dotted #05396b;
+    background: #05396b;
+    color: #5cdb95;
+    padding: 15px;
+    margin: 0;
+    border-radius: 15px 50px;
+    text-decoration: none;
+    font-weight: 900;
+}
+.email-btn:hover{
+    color: #5cdb95;
+    text-decoration: underline;
+}
+.home-banner img{
+    max-width: 100%;
+    margin-top: 30px;
+}
+.best{
+    text-align: center;
+    padding: 70px 0;
+}
+.why-are-we{
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #05396b;
+    font-size: 3em;
+    font-weight: 900;
+}
+.why-are-we::after{
+    display: block;
+    content: '';
+    width: 30%;
+    height: 5px;
+    margin-left: 475px;
+    margin-top: 20px;
+    background: #5cdb95;
+    position: absolute;
+}
+.best i{
+    padding: 15px 0;
+    font-size: 1.2em;
+    color: grey;
+    font-weight: 500;
+}
+#about-us{
+    padding: 50px 50px 120px 0px;
+}
+.about-us-1{
+    font-weight: 700;
+    font-size: 3em;
+    padding: 25px 0;
+    color: #05396b;
+}
+.about-us-des{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: grey;
+}
+#about-us img{
+    max-width: 100%;
+}
+#our-team{
+    padding: 10px 0 0 70px;
+}
+#our-team img{
+    max-width: 100%;
+    width: 300px;
+    height: 350px;
+    object-fit: contain;
+}
+#our-team img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.our-team-1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5em;
+    padding: 50px;
+    color: #05396b;
+}
+#our-team .person{
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+.name{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 25px 0 0 0;
+}
+.person-about{
+    text-align: justify;
+    color: grey;
+}
+/*footer*/
+footer{
+    background-color: #5cdb95;
+}
+.last-unit ul{
+    padding-top: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.last-unit ul li{
+    padding: 10px 20px;
+    display: inline-flex;
+}
+.last-unit a{
+    color: #05396b !important;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.social-icons{
+    padding: 30px 0 0 50px;
+}
+.social-icons .fa{
+    color: #05396b;
+    padding: 0 10px;
+    font-size: 1.5em;
+}
