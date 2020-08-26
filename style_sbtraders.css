@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url(//db.onlinewebfonts.com/c/4cbf858ccd9ffd3923bed6843a474080?family=Impact);
 *{
     max-width: 100%;
     margin: 0;
@@ -8,13 +9,13 @@
 /*header*/
 .header{
     max-width: 100%;
-    background-color: #5cdb95;
+    
     padding: 0;
 }
 /*Logo*/
 nav .navbar-brand{
     font-size: 2em;
-    color: #05396b !important;
+    color: #134f5d !important;
 }
 .logo a{
     font-weight: 100;
@@ -26,16 +27,22 @@ nav .navbar-brand{
     font-size: 0.9em;
     margin: 0 10px;
     padding: 5px 5px;
-    border: 2px solid #05396b ;
+    border: 2px solid #25354c ;
     border-radius: 15px 60px;
     text-transform: uppercase;
 }
+.navbar-nav .active{
+    background: #25354c !important;
+}
+.navbar-nav .active a{
+    color: #fff !important;
+}
 .navbar-nav a{
     font-weight: 800;
-    color: #05396b  !important;
+    color: #25354c !important;
 }
 .navbar-nav li:hover{
-    background: #05396b ;
+    background: #25354c;
     transition-duration: 0.4s;
 }
 .nav-item a:hover{
@@ -51,14 +58,15 @@ nav .navbar-brand{
 }
 /*main*/
 .first{
+    margin-top: 50px;
     left: 0;
     width: 100%;
-    background-color: #5cdb95 !important;
+    background-image: radial-gradient(#fff, #d9d8db);
 }
 .tagline{
     font-size: 4em;
     font-weight: bolder;
-    color: #fff;
+    color: #2d7992;
     padding: 65px 0;
     margin: 0;
     text-align: center;
@@ -69,9 +77,9 @@ nav .navbar-brand{
 }
 .email-btn{
     
-    border: 2px dotted #05396b;
-    background: #05396b;
-    color: #5cdb95;
+    border: 2px dotted #25354c;
+    background: #25354c;
+    color: #fff;
     padding: 15px;
     margin: 0;
     border-radius: 15px 50px;
@@ -79,7 +87,7 @@ nav .navbar-brand{
     font-weight: 900;
 }
 .email-btn:hover{
-    color: #5cdb95;
+    color: #fff;
     text-decoration: underline;
 }
 .home-banner img{
@@ -91,21 +99,24 @@ nav .navbar-brand{
     padding: 70px 0;
 }
 .why-are-we{
+    padding-top: 60px;
     position: relative;
     text-align: center;
     padding-bottom: 50px;
-    color: #05396b;
+    color: #25354c;
     font-size: 3em;
     font-weight: 900;
 }
 .why-are-we::after{
+    overflow: hidden;
     display: block;
     content: '';
-    width: 30%;
+    width: 40%;
     height: 5px;
-    margin-left: 475px;
+    left: calc(50% - 275px);
+    z-index: 2;
     margin-top: 20px;
-    background: #5cdb95;
+    background: #25354c;
     position: absolute;
 }
 .best i{
@@ -121,7 +132,7 @@ nav .navbar-brand{
     font-weight: 700;
     font-size: 3em;
     padding: 25px 0;
-    color: #05396b;
+    color: #25354c;
 }
 .about-us-des{
     font-size: 1.2em;
@@ -149,7 +160,7 @@ nav .navbar-brand{
     font-weight: 700;
     font-size: 2.5em;
     padding: 50px;
-    color: #05396b;
+    color: #25354c;
 }
 #our-team .person{
     box-sizing: border-box;
@@ -166,7 +177,10 @@ nav .navbar-brand{
 }
 /*footer*/
 footer{
-    background-color: #5cdb95;
+    background-image: url('footer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #25354c;
 }
 .last-unit ul{
     padding-top: 20px;
@@ -178,7 +192,7 @@ footer{
     display: inline-flex;
 }
 .last-unit a{
-    color: #05396b !important;
+    color: #fff !important;
     font-size: 1.2em;
     font-weight: 600;
 }
@@ -186,7 +200,7 @@ footer{
     padding: 30px 0 0 50px;
 }
 .social-icons .fa{
-    color: #05396b;
+    color: #fff;
     padding: 0 10px;
     font-size: 1.5em;
 }
