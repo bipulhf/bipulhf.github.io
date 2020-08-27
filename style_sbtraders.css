@@ -61,7 +61,7 @@ nav .navbar-brand{
     margin-top: 50px;
     left: 0;
     width: 100%;
-    background-image: radial-gradient(#fff, #d9d8db);
+    background-color: #333);
 }
 .tagline{
     font-size: 4em;
