@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+/*-------------------------
+HEADER
+---------------------------*/
+header img{
+    margin: 30px 0;
+}
+h1.logo{
+    text-indent: -10000px;
+    margin: 30px 0;
+    float: left;
+}
+header nav{
+    float: right;
+    position: relative;
+    display: flex;
+}
+header nav li{
+    float: left;
+    list-style-type: none;
+    margin: 20px;
+}
+header nav a{
+    text-decoration: none;
+    color: #555; 
+    font-weight: 700;
+}
+header nav .nav-menu:hover{
+    color: #000;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+    transition-duration: 0.35s;
+}
+header .try-it{
+    float: right;
+    position: relative;
+    margin: 23px 5px;
+    padding: 12px;
+}
+.try-it{
+    background: #2500f9;
+    color: #fff !important;
+    border-radius: 50px;
+    font-weight: bold !important;
+}
+.try-it:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    border-bottom: 2px solid #fff !important;    
+}
+
+/*-------------------------
+MAIN
+----------------------*/
+.main-home{
+    display: flex;
+    margin: 0;
+}
+.home{
+    margin: 100px;
+    float: left;
+    position: relative;
+}
+.home img{
+    margin: 0;
+    padding: 0;
+}
+.home .best-app{
+    font-size: 3em;
+    padding: 0;
+    margin: 5px auto;
+    font-weight: 900;
+    color: #222d4f;
+}
+.tagline{
+    color: #555;
+}
+.home .tagline{
+    padding: 20px 0 50px 0;
+}
+.home-img{
+    float: right;
+    position: relative;
+    margin-left: 100px;
+}
+.home .try-it{
+    padding: 12px;
+    margin: 0 50px 0 0;
+}
+.home .try-it:hover{
+    cursor: pointer;
+}
+.watch-video{
+    text-decoration: none;
+    color: #555;
+}
+.trusted-companies{
+    margin: 100px 0;
+}
+.trusted-companies h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+}
+.trusted-companies img{
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+.features-part{
+    margin: 100px 0;
+}
+.features-part img{
+    float: left;
+    margin: 0 100px 0 0;
+}
+.awesome-features{
+    font-size: 2em;
+    position: relative;
+    color: #222d4f;
+}
+.features .tagline{
+    margin: 0 0 50px 0;
+    position: relative;
+    padding: 0 ;
+}
+.fast-performance{
+    color: #f55969;
+}
+.prototyping{
+    color: #1659ff;
+}
+.vector-editing{
+    color: #29884b;
+}
+.why-should-you{
+    margin: 300px 0 150px 0;
+}
+.why-should-you_upper{
+    font-size: 1.2em;
+    color: #222d4f;
+    text-align: center;
+}
+.why-should-you_upper .tagline{
+    margin: 0 200px 50px 200px; 
+}
+.why-should-you_reasons{
+    display: flex;
+    margin: 5px 0 50px 0;
+}
+.reasons{
+    margin: 0 auto;
+    padding: 0 10%;
+}
+.reasons h3{
+    text-align: center;
+}
+.reasons .tagline{
+    text-align: center;
+}
+.reasons img{
+    display: block;
+    margin: 0 auto;
+}
+.client{
+    margin: 25px 0 150px 0;
+}
+.client img{
+    float: left;
+    margin-right: 20px;
+}
+.client h2{
+    color: #222d4f;
+    font-size: 1.8em;
+}
+.client .tagline{
+    margin: 0 0 50px 0;
+}
+h3.user-friendly{
+    display: block;
+    color: #000;
+    margin-top: 30px;
+}
+.client-details{
+    margin: 0;
+    padding: 0;
+}
+.client-details h3{
+    margin: 0;
+    padding: 0;
+    bottom: -15px;
+    position: relative;
+}
+.client-details p{
+    color: grey;
+    position: relative;
+}
+.download-our-app{
+    margin: 50px 0 100px 0;
+}
+.store{
+    margin: 100px 0;
+    float: left;
+}
+.store h2{
+    font-size: 2.2em;
+    color: #222d4f;
+}
+.download-our-app .tagline{
+    margin-bottom: 50px;
+}
+.store img{
+    margin: 0 50px 0 0;
+}
+.store img:hover{
+    cursor: pointer;
+}
+.download-our-app img{
+    float: right;
+}
+/*-------------------
+FOOTER
+----------------------*/
+footer{
+    clear: both;
+    padding: 50px 0;
+    background: #09142e;
+}
+footer ul{
+    display: block;
+    margin: 0 30%;
+}
+footer li{
+    list-style-type: none;
+    padding: 30px 30px 5px 30px;
+    float: left;
+}
+footer li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+footer li a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    clear: both;
+    display: block;
+    padding: 50px 0 0 34.5%;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
