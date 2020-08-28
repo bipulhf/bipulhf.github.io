@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-mail Signature</title>
+    <style>
+        *{
+            font-size: 10px;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            position: inherit;
+            font-family: sans-serif;
+            width: 100%;
+            max-width: 360px;
+        }
+        a{
+            text-decoration: none;
+        }
+        table{
+            padding: 20px 20px 0 20px;
+        }
+        .hr-line{
+            margin-left: 20px;
+        }
+        .footer{
+            margin-left: 22px;
+        }
+        .name{
+            text-align: right;
+            color: #517f9c;
+            font-size: 2rem;
+            font-weight: bolder;
+            padding-right: 15px;
+        }
+        .name-1{
+            position: relative;
+            font-size: 1.5rem;
+            font-weight: bold;
+            top: 5px;
+        }
+        .address{
+            position: relative;
+            font-size: 1.3rem;
+        }
+        .mobile{
+            top: -5px;
+            position: relative;
+            font-size: 1.3rem;
+        }
+        .designation{
+            text-align: right;
+            padding-right: 15px;
+            font-size: 1.35rem;
+            color: grey;
+        }
+        .icons img{
+            padding: 5px 5px 0 5px;
+        }
+        .mail , .website{
+            color: #333;
+            padding: 5px 5px 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <table border="0" cell-padding="0" cell-spacing="0">
+        <tr>
+            <td colspan="2" class="logo"><img src="logo.png"></td>
+        </tr>
+        <tr>
+            <td class="name">John<br>Forester</td>
+            <td rowspan="2" class="information">
+                <span class="name-1">Your Company</span>                
+                <p class="address">#12 Street, NYC New York USA</p>
+                <p class="mobile">+123 345 6789<br>+123 456 6789</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="designation">Manager</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="icons">
+                <a href="#"><img src="fb-logo.png"></a>
+                <a href="#"><img src="linked-in.png"></a>
+                <a href="#"><img src="twitter.png"></a>
+                <a href="#"><img src="youtube.png"></a>
+                <a href="#"><img src="insta.png"></a>
+                <a href="#"><img src="pinterest.png"></a>
+                <a href="#"><img src="new-icon.png"></a>
+            </td>
+        </tr>
+    </table>
+    <img src="hr.png" class="hr-line">
+    <div class="footer">
+        <a href="#" class="mail">john@website.com</a>
+        <a href="#" class="website">http://www.website.com</a>
+    </div>
+</body>
+</html>
